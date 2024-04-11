@@ -17,6 +17,7 @@ We have found 3 open ports:
 ```
 We can see that the FTP server allows anonymous login.
 
+
 Logging in to the FTP server as "anonymous" with no password:
 ```
 ftp <ip>
@@ -39,6 +40,7 @@ We then read the file
 cat note.txt
 ```
 "Anurodh told me that there is some filtering on strings being put in the command -- Apaar"
+
 
 Now we run gobuster to look for secret directories, using one of the wordlists that come with Kali
 ```
