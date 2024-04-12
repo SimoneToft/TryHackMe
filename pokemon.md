@@ -14,3 +14,9 @@ pokemon@root:~/Desktop$ ls
 P0kEmOn.zip
 
 
+unzip P0kEmOn.zip 
+
+inside the zip there is a a file, grass-type.txt, that has hexadecimal that when cedoded gives us the flag for the grass-type pokemon
+
+We find water-type.txt in var/www/html and is has a ceasar cypher (rotated 12 times), we decode it and get the water-type pokemon
+
